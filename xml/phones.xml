@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!DOCTYPE rules [
+<!ELEMENT phones (phone)>
+<!ELEMENT phone (name, model, diagonal, price, serial_number, prod_year, image ,paramList?)>
+<!ATTLIST phone
+  id CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT diagonal (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT serial_number (#PCDATA)>
+<!ELEMENT prod_year (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT paramList (param+)>
+<!ELEMENT param (parName, parValue)>
+<!ELEMENT parName (#PCDATA)>
+<!ELEMENT parValue (#PCDATA)>
+]>
+<phones>
+	<phone id="0">
+		<name>OnePlus</name>
+		<price>550</price>
+		<serial_number>AE0929106</serial_number>
+		<prod_year>2017</prod_year>
+		<image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/OnePlus_3_A3003.jpg/220px-OnePlus_3_A3003.jpg</image>
+		<model>3</model>
+		<diagonal>6.0</diagonal>
+		<paramList>
+			<param>
+				<parName>Количество ядер</parName>
+				<parValue> 4 ядра</parValue>
+			</param>
+			<param>
+				<parName>Количество симкарт</parName>
+				<parValue> 2 sim</parValue>
+			</param>
+			<param>
+				<parName>Встроенная память</parName>
+				<parValue> 64 ГБ</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="1">
+		<name>Xiaomi</name>
+		<model>Redmi Note 5</model>
+		<diagonal>5.99</diagonal>
+		<price>400</price>
+		<serial_number>BE0129816</serial_number>
+		<prod_year>2018</prod_year>
+		<image>https://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-5-plus.jpg</image>
+		<paramList>
+			<param>
+				<parName>Разрешение экрана</parName>
+				<parValue>1920x1080</parValue>
+			</param>
+			<param>
+				<parName>Камера</parName>
+				<parValue>13 Мп</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="2">
+		<name>HUAWEI</name>
+		<model>P smart+</model>
+		<diagonal>6.3</diagonal>
+		<price>514</price>
+		<serial_number>EO8630784</serial_number>
+		<prod_year>2016</prod_year>
+		<image>https://image.coolblue.nl/422x390/products/1139225</image>
+		<paramList>
+			<param>
+				<parName>Разрешение экрана</parName>
+				<parValue>2160x1080</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="3">
+		<name>Apple</name>
+		<model>iPhone 7</model>
+		<diagonal>4.7</diagonal>
+		<price>300</price>
+		<serial_number>KE953859</serial_number>
+		<prod_year>2010</prod_year>
+		<image>https://staticshop.o2.co.uk/product/images/iphone-7-plus-rose-gold_sku-header.png?cb=e55ba7b828e6e70c863cc29ad975d2ff</image>
+		<paramList>
+			<param>
+				<parName>Процессор</parName>
+				<parValue>Apple A10 Fusion</parValue>
+			</param>
+			<param>
+				<parName>ОС</parName>
+				<parValue>iOS</parValue>
+			</param>
+			<param>
+				<parName>Аккумулятор</parName>
+				<parValue>Li-Ion</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="4">
+		<name>Samsung</name>
+		<model>Galaxy S8</model>
+		<diagonal>5.8</diagonal>
+		<price>400</price>
+		<serial_number>LK9683656</serial_number>
+		<prod_year>2014</prod_year>
+		<image>https://drop.ndtv.com/TECH/product_database/images/329201783846PM_635_samsung_galaxy_s8.jpeg</image>
+		<paramList>
+			<param>
+				<parName>Камера</parName>
+				<parValue>12 Мп</parValue>
+			</param>
+			<param>
+				<parName>Оперативная память</parName>
+				<parValue>4 Гб</parValue>
+			</param>
+			<param>
+				<parName>Стандарт защиты</parName>
+				<parValue>IP68</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="5">
+		<name>OnePlus</name>
+		<model>6</model>
+		<diagonal>6.28</diagonal>
+		<price>200</price>
+		<serial_number>NB980698</serial_number>
+		<prod_year>2008</prod_year>
+		<image>https://i.citrus.ua/imgcache/size_1000/uploads/shop/c/a/cae0b8a55297ffa4c59fe8a8c588804c.jpg</image>
+		<paramList>
+			<param>
+				<parName>Устойчивое к царапинам стекло</parName>
+				<parValue>Corning Gorilla Glass 5</parValue>
+			</param>
+			<param>
+				<parName>Тип экрана</parName>
+				<parValue>Optic AMOLED</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="6">
+		<name>Meizu</name>
+		<model>16th</model>16th
+		<diagonal>6</diagonal>
+		<price>155</price>
+		<serial_number>QK9986837</serial_number>
+		<prod_year>2013</prod_year>
+		<image>https://i.citrus.ua/imgcache/size_1000/uploads/shop/e/5/e5bc7935b0bfabe2660c2a3e813fcc15.jpg</image>
+		<paramList>
+			<param>
+				<parName>Материал корпуса</parName>
+				<parValue>Металл, Стекло</parValue>
+			</param>
+			<param>
+				<parName>Габариты (ВхШхГ)</parName>
+				<parValue>150,5 х 73,3 х 7,3 мм</parValue>
+			</param>
+			<param>
+				<parName>Вес</parName>
+				<parValue>152 г</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="7">
+		<name>LG</name>
+		<model>V30</model>
+		<diagonal>4.5</diagonal>
+		<price>200</price>
+		<serial_number>OD8868403</serial_number>
+		<prod_year>2014</prod_year>
+		<image>https://i2.price.ua/images/model/52/3191010/2/1/type4/lg_v30_64gb_4400584.jpg</image>
+		<paramList>
+			<param>
+				<parName> Процессор</parName>
+				<parValue>Qualcomm Snapdragon 835 + GPU Adreno 540</parValue>
+			</param>
+			<param>
+				<parName>ОС</parName>
+				<parValue>Android 7.1 (Nougat)</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="8">
+		<name>Nokia</name>
+		<model>7</model>
+		<diagonal>5.2</diagonal>
+		<price>150</price>
+		<serial_number>KG7595839</serial_number>
+		<prod_year>2011</prod_year>
+		<image>https://hotline.ua/img/tx/182/182914138_s265.jpg</image>
+		<paramList>
+			<param>
+				<parName>Формат поддерживаемых карт памяти</parName>
+				<parValue>microSD</parValue>
+			</param>
+			<param>
+				<parName>Количество мегапикселей фронтальной камеры</parName>
+				<parValue>16 Мп</parValue>
+			</param>
+			<param>
+				<parName>Процессор </parName>
+				<parValue>Qualcomm Snapdragon 660</parValue>
+			</param>
+		</paramList>
+	</phone>
+	<phone id="9">
+		<name>Sony Xperia</name>
+		<model>XZ1</model>
+		<diagonal>5.2</diagonal>
+		<price>220</price>
+		<serial_number>XJ9583028</serial_number>
+		<prod_year>2016</prod_year>
+		<image>https://img.mvideo.ru/Pdb/30030295b.jpg</image>
+		<paramList>
+			<param>
+				<parName>Процессор</parName>
+				<parValue>Qualcomm Snapdragon 835</parValue>
+			</param>
+			<param>
+				<parName>Аккумулятор</parName>
+				<parValue>2700 мАч</parValue>
+			</param>
+		</paramList>
+	</phone>
+</phones>

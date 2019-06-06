@@ -1,0 +1,254 @@
+
+@font-face {
+	font-family: "Aardvark Bold","DS CenturyCapitals";
+ src: url("/fonts/aardv.ttf") format("ttf"),
+ 	url("/fonts/ds_centurycapitals.ttf") format("ttf");
+
+
+}
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body{
+	background-color: black;
+}
+
+.bg{
+	margin-left: 20%;	
+	margin-top:2%;
+	background-color: black;;
+position: relative;
+width: 780px;
+height: 600px;
+
+}
+
+.grn{
+position: absolute;
+display:inline-block;
+margin-top: 22%;
+margin-left: 21%;
+}
+.plc{
+position: absolute;
+display: inline-block;
+margin-top: 22%;
+margin-left: 1%;
+}
+
+.rul{
+	position: absolute;
+	display:inline-block;
+	margin-left: 38%;
+	margin-top: 12%;
+}
+
+.fs{
+	position: absolute;
+	display:inline-block;
+	margin-left: 21%;
+	margin-top: 15%;margin-left: 21%;
+	margin-top: 15%;
+
+}
+.cr{
+	position: absolute;
+	display:inline-block;
+	margin-left: 63%;
+	margin-top: 15%;
+}
+
+#cas{
+    cursor: pointer;
+	position: absolute;
+	display:inline-block;
+	margin-left: 36%;
+	margin-top: 1%;
+}
+
+#sp{
+	position: absolute;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 56%;
+
+}
+
+.cr2{
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 80%;
+}
+
+.cr1{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 2%;
+}
+
+.pc{
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 80%;
+
+}
+
+.dl{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 3%;
+
+}
+
+.tr1{
+	position: absolute;
+	display:inline-block;
+
+	margin-top: 22%;
+	margin-left: 33%;
+}
+
+.tr2{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 22%;
+	margin-left: 62%;
+}
+
+#titl{
+
+font-family: "Arial BlackLItalic",Arial,Verdana;
+color: red;
+font-size: 14pt;
+font-style: italic;
+display:inline-block;
+position: absolute;
+margin-top: 3%;
+margin-left: 29%;
+letter-spacing :3px;
+font-weight: 900;
+}
+.men{
+	color: yellow;
+	font-family: "Lucida Console Regular",Tahoma;
+	font-size: 14px;
+	letter-spacing :3px;
+	line-height: 19px;
+
+
+}
+.menu {
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+margin-left: 5%;
+
+
+}
+
+.menu a{
+	text-decoration: none;
+color: yellow;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color:rgb(255, 30, 0);
+
+}
+
+.gm{
+font-family: "Aardvark Bold";
+font-size: 11pt;
+font-weight: 600;
+
+}
+
+.card{
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+	margin-left: 83%;
+	color: yellow;
+	font-weight: bolder;
+	letter-spacing :2px;
+	line-height: 19px;
+}
+
+.card a{
+
+	text-decoration: none;
+color: yellow;
+}
+
+.card a:hover{
+
+	text-decoration: none;
+color:rgb(255, 30, 0);
+}
+
+.tm{
+
+	font-family: 'DS CenturyCapitals';
+	font-size: 13pt;
+	color: yellow;
+	letter-spacing :5px;
+
+
+}
+
+.tmenu{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 8%;
+
+
+}
+
+.tgames{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 85%;
+
+}
+
+.maint{
+	font-size: 11px;
+margin-bottom: 17px;
+color: yellow;
+}
+
+.maint1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	margin-bottom: 17px;
+	color: yellow;
+
+}
+
+.maint2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	color: yellow;
+}
+
+.text{
+	display:inline-block;
+	position: absolute;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 32%;
+margin-left: 25%;
+letter-spacing :2px;
+}

@@ -1,0 +1,308 @@
+
+@font-face {
+	font-family: "Aardvark Bold","DS CenturyCapitals";
+ src: url("/fonts/aardv.ttf") format("ttf"),
+ 	url("/fonts/ds_centurycapitals.ttf") format("ttf");
+
+
+}
+
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+body{
+	background-color: black;
+}
+.bg{
+margin-left: 20%;
+margin-top:2%;
+background-color: black;;
+position: relative;
+width: 780px;
+height: 600px;
+
+}
+
+.grn{
+position: absolute;
+display:inline-block;
+margin-top: 22%;
+margin-left: 21%;
+height: 460px;
+width: 460px;
+
+}
+.plc{
+position: absolute;
+display: inline-block;
+margin-top: 22%;
+margin-left: 1%;
+}
+
+.rul{
+	position: absolute;
+	display:inline-block;
+	margin-left: 38%;
+	margin-top: 12%;
+}
+
+.fs{
+	position: absolute;
+	display:inline-block;
+	margin-left: 21%;
+	margin-top: 15%;margin-left: 21%;
+	margin-top: 15%;
+
+}
+.cr{
+	position: absolute;
+	display:inline-block;
+	margin-left: 63%;
+	margin-top: 15%;
+}
+
+.cas{
+
+	position: absolute;
+	display:inline-block;
+	margin-left: 36%;
+	margin-top: 1%;
+}
+
+.sp{
+	position: absolute;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 56%;
+
+}
+
+.cr2{
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 80%;
+}
+
+.cr1{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 2%;
+}
+
+.pc{
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 80%;
+
+}
+
+.dl{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 3%;
+
+}
+
+.tr1{
+	position: absolute;
+	display:inline-block;
+
+	margin-top: 22%;
+	margin-left: 33%;
+}
+
+.tr2{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 22%;
+	margin-left: 62%;
+}
+
+.titl{
+
+font-family: "Arial BlackLItalic",Arial,Verdana;
+color: red;
+font-size: 14pt;
+font-style: italic;
+display:inline-block;
+position: absolute;
+margin-top: 28%;
+margin-left: 29%;
+letter-spacing :3px;
+font-weight: 900;
+}
+.men{
+	color: yellow;
+	font-family: "Lucida Console Regular",Tahoma;
+	font-size: 14px;
+	letter-spacing :3px;
+	line-height: 19px;
+
+
+}
+.menu {
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+margin-left: 5%;
+
+
+}
+
+.menu a{
+	text-decoration: none;
+color: yellow;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color:rgb(255, 30, 0);
+
+}
+
+.gm{
+font-family: "Aardvark Bold";
+font-size: 11pt;
+font-weight: 600;
+
+}
+
+.card{
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+	margin-left: 83%;
+	color: yellow;
+	font-weight: bolder;
+	letter-spacing :2px;
+	line-height: 19px;
+}
+
+.card a{
+
+	text-decoration: none;
+color: yellow;
+}
+
+.card a:hover{
+
+	text-decoration: none;
+color:rgb(255, 30, 0);
+}
+
+.tm{
+
+	font-family: 'DS CenturyCapitals';
+	font-size: 13pt;
+	color: yellow;
+	letter-spacing :5px;
+
+
+}
+
+.tmenu{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 7%;
+
+
+}
+
+.tgames{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 84%;
+
+}
+
+.maint{
+	font-size: 11px;
+margin-bottom: 17px;
+color: yellow;
+}
+
+.maint1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	margin-bottom: 17px;
+	color: yellow;
+
+}
+
+.maint2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	color: yellow;
+}
+
+  #list {
+	position: absolute;
+    height: 327px;
+	width: 400px;
+	margin-left: 24%;
+	margin-top: 31%;
+    overflow-y: auto;
+	padding: 10px;
+	font-size: 14pt;
+	font-family:"Arial BlackLItalic",Arial,Verdana;
+	color:red;
+	letter-spacing :2px;
+	}
+
+#params{
+font-size:10pt;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:yellow;
+letter-spacing :2px;
+}
+
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(218, 209, 209);
+  color: rgb(20, 20, 20);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+.popup .show {
+  visibility: visible;
+
+}
+
+::-webkit-scrollbar{
+    width:30px;
+		opacity: 0;
+}
+
+::-webkit-scrollbar-thumb{
+    border-width:0px 0px 0px 0px;
+    background-color: #aaa;
+	}

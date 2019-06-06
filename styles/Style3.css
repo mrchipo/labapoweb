@@ -1,0 +1,517 @@
+
+@font-face {
+	font-family: "Aardvark Bold","DS CenturyCapitals";
+ src: url("/fonts/aardv.ttf") format("ttf"),
+ 	url("/fonts/ds_centurycapitals.ttf") format("ttf");
+
+
+}
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body{
+	background-color: black;
+}
+
+table{
+margin-left: 448px;
+margin-top: -300px;
+}
+.bg{
+margin-left: 20%;
+margin-top:2%;
+background-color: black;;
+position: relative;
+width: 780px;
+height: 600px;
+z-index: -1;
+
+}
+
+#canvas{
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 25%;
+}
+
+.grn{
+position: absolute;
+display:inline-block;
+margin-top: 22%;
+margin-left: 21%;
+z-index: -1;
+}
+.plc{
+position: absolute;
+display: inline-block;
+margin-top: 22%;
+margin-left: 1%;
+z-index: -1;
+}
+
+.rul{
+	position: absolute;
+	display:inline-block;
+	margin-left: 38%;
+	margin-top: 12%;
+	z-index: -1;
+}
+
+.fs{
+	position: absolute;
+	display:inline-block;
+	margin-left: 21%;
+	margin-top: 15%;margin-left: 21%;
+	margin-top: 15%;
+	z-index: -1;
+
+}
+.cr{
+	position: absolute;
+	display:inline-block;
+	margin-left: 63%;
+	margin-top: 15%;
+	z-index: -1;
+}
+
+.cas{
+
+	position: absolute;
+	display:inline-block;
+	margin-left: 36%;
+	margin-top: 1%;
+	z-index: -1;
+}
+
+.sp{
+	position: absolute;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 56%;
+	z-index: -1;
+
+}
+
+.cr2{
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 80%;
+	z-index: -1;
+}
+
+.cr1{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 23%;
+	margin-left: 2%;
+	z-index: -1;
+}
+
+
+.pc{
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 80%;
+
+}
+
+.dl{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 27%;
+	margin-left: 3%;
+
+}
+
+.tr1{
+	position: absolute;
+	display:inline-block;
+
+	margin-top: 22%;
+	margin-left: 33%;
+}
+
+.tr2{
+
+	position: absolute;
+	display:inline-block;
+	margin-top: 22%;
+	margin-left: 62%;
+}
+
+.titl{
+
+font-family: "Arial BlackLItalic",Arial,Verdana;
+color: red;
+font-size: 14pt;
+font-style: italic;
+display:inline-block;
+position: absolute;
+margin-top: 28%;
+margin-left: 29%;
+letter-spacing :3px;
+font-weight: 900;
+}
+.men{
+	color: yellow;
+	font-family: "Lucida Console Regular",Tahoma;
+	font-size: 14px;
+	letter-spacing :3px;
+	line-height: 19px;
+}
+.menu {
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+margin-left: 5%;
+
+
+}
+
+.menu a{
+	text-decoration: none;
+color: yellow;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color:rgb(255, 30, 0);
+
+}
+
+.gm{
+font-family: "Aardvark Bold";
+font-size: 11pt;
+font-weight: 600;
+
+}
+
+.card{
+	display:inline-block;
+	position: absolute;
+	margin-top: 27%;
+	margin-left: 83%;
+	color: yellow;
+	font-weight: bolder;
+	letter-spacing :2px;
+	line-height: 19px;
+}
+
+.card a{
+
+	text-decoration: none;
+color: yellow;
+}
+
+.card a:hover{
+
+	text-decoration: none;
+color:rgb(255, 30, 0);
+}
+
+.tm{
+
+	font-family: 'DS CenturyCapitals';
+	font-size: 13pt;
+	color: yellow;
+	letter-spacing :5px;
+
+
+}
+
+.tmenu{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 7%;
+
+
+}
+
+.tgames{
+	display:inline-block;
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 84%;
+
+}
+
+.plc1{
+	position: absolute;
+	margin-bottom: 50%;
+	margin-left: 30%;
+}
+.in{
+
+color: rgb(0, 3, 3);
+}
+
+input[type="text"]{
+
+
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 13px;
+
+}
+
+.Guest{
+	display:inline-block;
+	position: absolute;
+	margin-top: 42%;
+	margin-left: 25%;
+
+
+}
+
+input[type="password"]{
+
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 13px;
+
+}
+input[type="submit"]{
+float: left;
+
+}
+
+.infp{
+
+color: yellow;
+font-family: "Lucida Console Regular",Tahoma;
+letter-spacing :1px;
+}
+
+.ok {
+width:120px;
+color: green;
+font-size: 12pt;
+background-color: yellow;
+border: 1px solid green;
+border-radius: 5px;
+float:right;
+
+}
+
+.sign a{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	color: yellow;
+	text-decoration: none;
+}
+
+.sign  :hover{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	color: red;
+	text-decoration: none;
+
+}
+
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+
+  /* The actual popup */
+  .popup .popuptext {
+	visibility: hidden;
+	width: 160px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -80px;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
+
+  form label {
+	display: inline-block;
+	width: 100px;
+  }
+
+  .error {
+	color: red;
+	margin-left: 5px;
+  }
+
+  label.error {
+	display: inline;
+  }
+	#bt1{
+
+		color: green;
+		font-size: 13pt;
+		background-color: yellow;
+		border: 1px solid green;
+		border-radius: 5px;
+	}
+
+  #bt2{
+
+	display: inline;
+	color: green;
+	font-size: 13pt;
+	background-color: yellow;
+	border: 1px solid green;
+	border-radius: 5px;
+  }
+  #bt3{
+		color: green;
+		font-size: 13pt;
+		background-color: yellow;
+		border: 1px solid green;
+		border-radius: 5px;
+  }
+.Guest{
+	margin-top:40%;
+	margin-left:25%;
+}
+
+  .layout{
+	position : absolute;
+	margin-top :23%;
+	margin-left:5%;
+}
+form p{
+	font-family: "Lucida Console Regular",Tahoma;
+color: yellow;
+	font-size: 13pt;
+}
+.a{
+	border-color: yellow;
+}
+
+table {
+background-color: white;
+border-collapse: collapse;
+
+}
+td {border: 1px solid grey;
+	font-size: 8pt;
+	font-family: Tahoma;
+	border-top: 0px;
+}
+th{border-bottom: 0px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+td:nth-of-type(2n){
+	background:#f0f0f0 ;
+}
+td:nth-last-of-type(n+4){
+	padding: 7px 35px 7px 8px;
+}
+th:nth-last-of-type(n+4){
+	padding: 15px 35px 14px 0px;
+}
+th:nth-child(2){
+	padding-left: 3px;
+}
+
+th:nth-of-type(n+4){
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 3px;
+	padding-right: 3px;
+	align: center;
+}
+td:nth-of-type(n+4){
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+td:nth-of-type(6){
+	background:#aaaaaa	 ;
+	color:blue;
+	font-weight: bold;
+	text-align:right;
+	padding-right: 12px;
+
+}
+td:nth-of-type(5){
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+
+td:nth-child(1){
+
+padding-left:13px;
+}
+
+form {
+position :absolute;
+margin-top:-350px;
+margin-left: 500px;
+
+}
+#can{
+	position: absolute;
+	margin-top: 35%;
+	margin-left: 25%;
+	align-content: center;
+}
+.GDimg{
+	
+	margin-top:-240px ;
+	margin-right:24px;
+	
+}
+
+.GDimge{
+	
+	margin-top: 0px;
+	
+}
