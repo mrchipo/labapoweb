@@ -13,7 +13,7 @@
 <body>
     <div class="bg">
 
-        <div class="cas"><img src="img/casino.png" alt=""></div>
+        
         <div class="fs"><img src="img/fishki.png" alt=""></div>
         <div class="cr"><img src="img/carti.png"></div>
         <div class="grn">
