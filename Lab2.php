@@ -20,7 +20,7 @@
             <img src="img/green.png">
         </div>
         <div>
-            <p class="titl">WELCOME TO THE GRAND</p>
+            <p class="titl">WELCOME TO EPAM!!!!</p>
         </div>
         <div class="plc"><img src="img/plechi.png"> </div>
         <div class="rul"><img src="img/ruletka.png"></div>
